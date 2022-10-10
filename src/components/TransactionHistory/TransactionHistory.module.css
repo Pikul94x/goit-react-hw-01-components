@@ -1,0 +1,36 @@
+.transactionHistory {
+  width: 600px;
+  margin: 30px auto;
+  text-align: center;
+  box-shadow: 0px 0px 15px -1px rgba(54, 103, 105, 0.7);
+}
+
+.tableHead {
+  text-transform: uppercase;
+  background-color: #00bcd5;
+  padding: 10px;
+}
+
+.tagHeader {
+  color: white;
+}
+
+.tableRow {
+  color: black;
+}
+.tableRow:nth-child(2n) {
+  background-color: #d1d8ea;
+}
+
+.tagHeader {
+  padding: 20px;
+  width: 33%;
+}
+
+.tableData {
+  padding: 10px;
+  margin: 0;
+}
+.tableData::first-letter {
+  text-transform: uppercase;
+}
